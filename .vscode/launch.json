@@ -1,0 +1,31 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "OOPSBannerAppU3",
+      "request": "launch",
+      "mainClass": "OOPSBannerAppU3",
+      "projectName": "OOPSBannerApp_fa28bc98"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/USER/OneDrive/Documents/OOPSBannerApp/OOPSBannerApp",
+      "program": "c:/Users/USER/OneDrive/Documents/OOPSBannerApp/OOPSBannerApp/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
