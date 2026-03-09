@@ -1,0 +1,59 @@
+public class OOPSBannerApp {
+
+    // Inner class for O
+    static class O {
+        public static String[] getPattern() {
+            return new String[]{
+                " ***** ",
+                "*     *",
+                "*     *",
+                "*     *",
+                "*     *",
+                "*     *",
+                " ***** "
+            };
+        }
+    }
+
+    // Inner class for P
+    static class P {
+        public static String[] getPattern() {
+            return new String[]{
+                " ***** ",
+                "*     *",
+                "*     *",
+                " ***** ",
+                "*      ",
+                "*      ",
+                "*      "
+            };
+        }
+    }
+
+    // Inner class for S
+    static class S {
+        public static String[] getPattern() {
+            return new String[]{
+                " ***** ",
+                "*      ",
+                "*      ",
+                " ***** ",
+                "      *",
+                "      *",
+                " ***** "
+            };
+        }
+    }
+
+    public static void main(String[] args) {
+
+        String[] o1 = O.getPattern();
+        String[] o2 = O.getPattern();
+        String[] p  = P.getPattern();
+        String[] s  = S.getPattern();
+
+        for (int i = 0; i < 7; i++) {
+            System.out.println(o1[i] + "  " + o2[i] + "  " + p[i] + "  " + s[i]);
+        }
+    }
+}
